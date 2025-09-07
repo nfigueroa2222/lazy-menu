@@ -1,0 +1,6 @@
+<main class="all-recipes">
+  <h1 class="all-recipes-heading">{{ category | titlecase }} Recipes</h1>
+  <div class="all-recipes-grid">
+    <app-recipe *ngFor="let recipe of recipes" [recipe]="recipe"></app-recipe>
+  </div>
+</main>

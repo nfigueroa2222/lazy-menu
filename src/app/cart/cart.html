@@ -1,0 +1,10 @@
+<div class="cart">
+  <h3>Cart</h3>
+  <ul>
+    <li *ngFor="let item of (cart$ | async) | keyvalue">
+      {{ item.key }}: {{ item.value }}
+      <button (click)="removeItem(item.key)">x</button>
+    </li>
+  </ul>
+  <button class="clear-btn" (click)="clearCart()">Clear Cart</button>
+</div>

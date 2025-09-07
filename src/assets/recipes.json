@@ -1,0 +1,204 @@
+[
+    {
+        "id": 1,
+        "date": "2024-08-10",
+        "image": "beef-roast.jpg",
+        "name": "Beef Roast",
+        "servings": 3,
+        "directions": "Sear each side of the roast for 4 minutes in a Dutch oven and then set it aside. Then sear the vegetables in the Dutch oven until they are brown. Once they are brown, pour the red wine in and let it settle for 2 minutes. After letting it settle, add the meat back in and pour the beef broth on top. Then bring everything to a boil and let it simmer for 5 minutes. Once it has simmered, bake it at 300 degrees Fahrenheit for 1 and a half hours. After it has baked for the first half, add in potato chunks and bake for another 1 and a half hours.",
+        "ingredients": [
+            "2 Pound Chuck Roast",
+            "4 Garlic Cloves",
+            "4 Campari Tomatoes",
+            "1 Box of Beef Broth",
+            "8 Small Potatoes",
+            "1/2 cup of Red Wine"
+        ],
+        "category": "dinner"
+    },
+    {
+        "id": 2,
+        "date": "2024-11-02",
+        "image": "buns.jpg",
+        "name": "Honey Buns",
+        "servings": 6,
+        "directions": "Whisk together the warm milk, yeast, and 1 tsp of honey in a bowl to activate the yeast. Then loosely cover it and let it sit for about 5 minutes until it foams up. Then add in the rest of the honey, 3 cups of flour, melted butter, and egg. Mix everything together until the dough forms a ball. If the dough is too sticky, then keep adding more of the remaining flour in. Once the dough has formed a ball, sprinkle flour on your counter and begin kneading the dough for about 10 minutes. Then lightly oil the dough, place it into a bowl, and cover it with plastic wrap. The dough needs to sit on the counter in a warm environment for about 1-2 hours. At this time the dough will have doubled in size, and you can cut it into about 12 pieces. Shape each of the pieces into a ball and put them on a pan. After placing them all on the pan, loosely cover them and let them sit for about 1 hour. Then bake them for about 20 minutes at 350 degrees Fahrenheit and enjoy.",
+        "ingredients": [
+            "1 cup of Whole Milk",
+            "1 packet of Active Dry Yeast",
+            "1/4 cup + 1 tsp of Honey",
+            "1 Egg + 1 Egg Yolk",
+            "1/4 cup of Butter",
+            "3 and 1/2 cups of Bread Flour"
+        ],
+        "category": "breakfast"
+    },
+    {
+        "id": 3,
+        "date": "2024-10-26",
+        "image": "butternut-squash-oyster.jpg",
+        "name": "Butternut Squash Soup with Oyster Mushrooms",
+        "servings": 2,
+        "directions": "Chop all the vegetables up except for the oyster mushrooms and bake at 400 degrees Fahrenheit for about 30 minutes. Then let it cool off and add it into a blender container. Add a generous amount of milk and water into the container and blend everything together. Keep adding milk and water until the desired consistency is reached. After that, pour it into a pot and begin heating it back up. Then sauté the oyster mushrooms and serve on top of the soup with some parmesan cheese.",
+        "ingredients": [
+            "1 pack of chopped up Butternut Squash",
+            "1 Red Pepper",
+            "2 Garlic Cloves",
+            "1 Slice of Onion",
+            "Oyster Mushrooms",
+            "Milk",
+            "Parmesan Cheese"
+        ],
+        "category": "lunch"
+    },
+    {
+        "id": 4,
+        "date": "2024-11-09",
+        "image": "chicken-soup.jpg",
+        "name": "Chicken Noodle Soup",
+        "servings": 3,
+        "directions": "Sear the chicken thighs in a Dutch oven for about 1 minute each side. Then bake them at 425 degrees Fahrenheit for about 35 minutes. Once they are finished baking, place them into a bowl and shred them up. Then set the bowl aside and begin sauteing the vegetables. Once the vegetables have browned, deglaze the pan with white wine and add in the chicken broth. At the same time, add in the shredded-up chicken and in a separate pot, begin boiling water and cooking pasta. After the pasta has finished cooking, add it into a bowl and pour the soup with chicken on top.",
+        "ingredients": [
+            "4 Bone in Chicken Thighs",
+            "3 Carrots",
+            "1/2 Onion",
+            "3 Garlic Cloves",
+            "White Wine",
+            "1 box of Chicken Broth",
+            "1 cup of Pasta"
+        ],
+        "category": "lunch"
+    },
+    {
+        "id": 5,
+        "date": "2023-10-22",
+        "image": "french-toast.jpg",
+        "name": "French Toast",
+        "servings": 1,
+        "directions": "In a bowl mix together the milk, eggs, sugar, vanilla extract, and salt. Then heat up some butter on a skillet, dip the bread in the mix, and begin cooking.",
+        "ingredients": [
+            "3 Slices of Artisan White Bread",
+            "1/4 cup of Milk",
+            "2 Eggs",
+            "1 tsp of Sugar",
+            "1 tsp of Vanilla Extract",
+            "A pinch of Salt",
+            "1 tbsp of Butter"
+        ],
+        "category": "breakfast"
+    },
+    {
+        "id": 6,
+        "date": "2024-11-20",
+        "image": "salmon-quinoa.jpg",
+        "name": "Salmon with Quinoa and Potatoes",
+        "servings": 2,
+        "directions": "Begin by washing the quinoa and cooking it in a pot with the recommended amount of water. While that is cooking, cut up the potatoes and boil them until they are just tender enough to put a fork through. Then pour out the water for the potatoes, add chopped up garlic, season, and bake at 400 degrees Fahrenheit for about 30 minutes. While the potatoes are baking, season the salmon with paprika, cayenne pepper, garlic, and onion powders. After the salmon is seasoned, sear it for 2 minutes on each side and bake at 400 degrees Fahrenheit for 15 minutes with the potatoes. Once everything is finished cooking, serve and enjoy.",
+        "ingredients": [
+            "1/4 cup of Quinoa",
+            "4 small Potatoes",
+            "Salmon",
+            "2 Garlic Cloves",
+            "Powdered Paprika",
+            "Powdered Cayenne Pepper",
+            "Powdered Garlic Powder",
+            "Powdered Onion Poweder"
+        ],
+        "category": "dinner"
+    },
+    {
+        "id": 7,
+        "date": "2024-12-03",
+        "image": "salmon-rice.jpg",
+        "name": "Salmon with Rice",
+        "servings": 1,
+        "directions": "Begin by washing the rice and cooking it in a pot of water. Use the recommended amount of water that is specified on the rice bag. Then season the salmon with paprika, cayenne pepper, garlic, and onion powders. After the salmon is seasoned, sear the salmon for about 2 minutes on each side with the rosemary and bake at 400 degrees Fahrenheit for about 15 minutes. While the salmon is baking, sauté the carrot strips and mushrooms. When the rice is finished cooking, add it into the sautéed vegetables and then plate it with the salmon on top.",
+        "ingredients": [
+            "Salmon",
+            "Powdered Paprika",
+            "Powdered Cayenne Pepper",
+            "Powdered Garlic Powder",
+            "Powdered Onion Poweder",
+            "1/4 cup of White Rice",
+            "Mushrooms",
+            "Rosemary",
+            "1 small Carrot"
+        ],
+        "category": "dinner"
+    },
+    {
+        "id": 8,
+        "date": "2024-11-12",
+        "image": "shrimp-cake-pasta.jpg",
+        "name": "Pasta with Shrimp cake",
+        "servings": 1,
+        "directions": "Start by baking the frozen shrimp cake at the recommended temperature and time. While that is baking start boiling a pot of water and start cooking the pasta. Then cut up the vegetables and sauté in a pan until it becomes a paste. Once it has become a paste, add pasta water to it until it reaches the desired sauce consistency. Then drain the water from the pasta and stir into the sauce. Now that everything is mixed up, plate the pasta and place the shrimp cake on top.",
+        "ingredients": [
+            "1 Frozen Shrimp Cake",
+            "2/3 cups of Pasta",
+            "5 Campari Tomatoes",
+            "2 Garlic Cloves",
+            "1 Slice of Onion"
+        ],
+        "category": "dinner"
+    },
+    {
+        "id": 9,
+        "date": "2024-11-03",
+        "image": "spaghetti-squash.jpg",
+        "name": "Spaghetti Squash with Pancetta Tomato Sauce",
+        "servings": 2,
+        "directions": "Split the spaghetti squash in half and bake at 400 degrees Fahrenheit for about 40 minutes. Then boil the tomatoes until the skin burst and drain the water out. Once the tomatoes have cooled down, remove the skin off the tomatoes and chop up. Then cook the pancetta in a pan and spoon into a dish with paper towels to drain some of the grease off. It is important to keep most of the pancetta grease in the pan because the mushrooms, onion, and garlic will be sautéed in this. Once the vegetables have begun to brown, add in the tomatoes and cook until it becomes a paste. Then add in water to rehydrate the sauce and add in the pancetta. Once the squash has finished baking, place it in a bowl and use a fork to shred it up. Then pour the sauce on top and serve.",
+        "ingredients": [
+            "3 Tomatoes",
+            "2 Garlic Cloves",
+            "1 Baby Bella Mushroom",
+            "1 Slice of Onion",
+            "1 pack of Pancetta",
+            "1 Spaghetti Squash"
+        ],
+        "category": "dinner"
+    },
+    {
+        "id": 10,
+        "date": "2024-15-11",
+        "image": "steak-carrot.jpg",
+        "name": "NY Strip with Carrot Puree",
+        "servings": 1,
+        "directions": "Slice the carrots up as thinly as possible and sauté until they are very tender. Then add it into a blender with the ginger powder and squeeze the lemon juice into the container. To get the blender to start up, add some water to the container. Before starting the steak, chop up the potatoes, boil them until tender, season, and bake at 425 degrees Fahrenheit for about 20 minutes. While the potatoes are baking, sear the steak in a pan with butter for about 3 minutes each side and bake at 425 degrees Fahrenheit until it reaches your desired internal temperature. In another pan, sauté the oyster mushrooms. Then add the puree to the plate with the steak on top and the potatoes on the side.",
+        "ingredients": [
+            "1 NY Strip",
+            "2 Carrots",
+            "2 Garlic Cloves",
+            "1/4 tsp of ginger powder",
+            "1/2 of a Lemon",
+            "butter",
+            "parsley",
+            "3 small Potatoes",
+            "Oyster Mushrooms"
+        ],
+        "category": "dinner"
+    },
+    {
+        "id": 11,
+        "date": "2024-13-12",
+        "image": "bison_chili.jpg",
+        "name": "Chili with Ground Bison",
+        "servings": 3,
+        "directions": "Saute peppers, onions, garlic, and chili pepper in chili oil. Then cook 1 pound of ground bison, add chili seasonings and then add to the crock pot. Add 1 can of tomato sauce, 2 cubed tomatoes, a pinch of cocoa powder, beef broth, and sugar. Then cook on low for 4 and a half hours. Add in red kidney beans at the end and let cook for 30 minutes. Then top with avocado and sour cream.",
+        "ingredients": [
+            "1 pound of ground bison",
+            "1 can of tomato sauce",
+            "1 green pepper",
+            "Half of a sweet onion",
+            "3 garlic cloves",
+            "Chili pepper (optional)",
+            "1 tsp sugar",
+            "1/2 cup of beef broth",
+            "Pinch of cocoa powder",
+            "Sour cream",
+            "1 Avacado"
+        ],
+        "category": "dinner"
+    }
+]
