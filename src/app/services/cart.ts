@@ -5,34 +5,49 @@ import { BehaviorSubject } from 'rxjs';
   providedIn: 'root'
 })
 export class CartService {
- private cart: { [ingredient: string]: number } = {};
-  private cartSubject = new BehaviorSubject<{ [ingredient: string]: number }>({});
+  private storageKey = 'lazyMenuCart';
+
+  private cart: { [ingredient: string]: number } = {};
+
+  // load cart from localStorage or start with empty object
+  private cartSubject = new BehaviorSubject<{ [ingredient: string]: number }>(
+    this.loadCart()
+  );
 
   cart$ = this.cartSubject.asObservable();
 
-  addIngredient(ingredient: string) {
-    this.cart[ingredient] = (this.cart[ingredient] || 0) + 1;
-    this.cartSubject.next({ ...this.cart });
+  private loadCart(): { [key: string]: number } {
+    const stored = localStorage.getItem(this.storageKey);
+    return stored ? JSON.parse(stored) : {};
   }
 
-  addIngredients(ingredients: string[]) {
-    ingredients.forEach(i => this.addIngredient(i));
+  private saveCart(cart: { [key: string]: number }) {
+    localStorage.setItem(this.storageKey, JSON.stringify(cart));
+  }
+
+  addIngredient(ingredient: string) {
+    const current = { ...this.cartSubject.value };
+    current[ingredient] = (current[ingredient] || 0) + 1;
+    this.cartSubject.next(current);
+    this.saveCart(current);
   }
 
   removeIngredient(ingredient: string) {
-    if (this.cart[ingredient]) {
-      this.cart[ingredient]--;
-      if (this.cart[ingredient] === 0) delete this.cart[ingredient];
-      this.cartSubject.next({ ...this.cart });
+    const current = { ...this.cartSubject.value };
+    if (current[ingredient]) {
+      delete current[ingredient];
+      this.cartSubject.next(current);
+      this.saveCart(current);
     }
   }
 
   clearCart() {
-    this.cart = {};
-    this.cartSubject.next({ ...this.cart });
+    const empty = {};
+    this.cartSubject.next(empty);
+    this.saveCart(empty);
   }
 
   getCart() {
-    return this.cart;
+    return this.cartSubject.value;
   }
 }

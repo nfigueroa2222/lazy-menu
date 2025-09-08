@@ -1,4 +1,8 @@
-<div class="cart">
+<button class="cart-toggle" (click)="toggleCart()">
+  🛒 Cart ({{ cartCount }})
+</button>
+
+<div class="cart" [class.collapsed]="collapsed">
   <h3>Cart</h3>
   <ul>
     <li *ngFor="let item of (cart$ | async) | keyvalue">

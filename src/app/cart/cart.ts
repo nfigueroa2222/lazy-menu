@@ -6,21 +6,32 @@ import { CartService } from '../services/cart';
   selector: 'app-cart',
   imports: [CommonModule],
   templateUrl: './cart.html',
-  styleUrl: './cart.css'
+  styleUrl: './cart.css',
 })
 export class CartComponent {
-  // Use getter to safely access service after injection
-  get cart$() {
-    return this.cartService.cart$;
+  collapsed = true;
+
+  constructor(public cartService: CartService) {}
+
+  toggleCart() {
+    this.collapsed = !this.collapsed;
   }
 
-  constructor(private cartService: CartService) {}
+  removeItem(item: string) {
+    this.cartService.removeIngredient(item);
+  }
 
   clearCart() {
     this.cartService.clearCart();
   }
 
-  removeItem(item: string) {
-    this.cartService.removeIngredient(item);
+  // Use getter to safely access service after injection
+  get cart$() {
+    return this.cartService.cart$;
+  }
+
+  get cartCount(): number {
+    const items = this.cartService.getCart();
+    return Object.values(items).reduce((sum, qty) => sum + qty, 0);
   }
 }

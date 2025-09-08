@@ -13,6 +13,8 @@ export class RecipeComponent {
     constructor(private cartService: CartService) {}
 
     addToCart() {
-      this.cartService.addIngredients(this.recipe.ingredients);
+      for (const ingredient of this.recipe.ingredients) {
+        this.cartService.addIngredient(ingredient);
+      }
     }
 }
